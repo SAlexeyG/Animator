@@ -29,5 +29,6 @@ public class GunScript : MonoBehaviour
             else
                 animatorOverrideController["Shooting"] = null;
         }
+        if (Input.GetKeyDown(KeyCode.P)) animator.SetTrigger("Stop");
     }
 }
